@@ -13,9 +13,9 @@ This project depends on the following Python (Python 3) libraries:
 - **MHFP** version 1.9.6 - pip install mhfp==1.9.6
 - **Mol2vec** version 0.1 - pip install mol2vec==0.1
 - **networkx** version 2.5 - pip install networkx==2.5
-- **scikit-learn** version 1.3.0 - pip intsall scikit-learn==1.3.0
-- **scipy** version 1.8.1 - pip intsall scipy==1.8.1
-- **h5py** version 3.10.0 - pip intsall h5py==3.10.0
+- **scikit-learn** version 1.3.0 - pip install scikit-learn==1.3.0
+- **scipy** version 1.8.1 - pip install scipy==1.8.1
+- **h5py** version 3.10.0 - pip install h5py==3.10.0
 
 ### Model Training
 
