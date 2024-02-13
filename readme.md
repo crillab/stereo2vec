@@ -17,6 +17,11 @@ This project depends on the following Python (Python 3) libraries:
 - **scipy** version 1.8.1 - pip install scipy==1.8.1
 - **h5py** version 3.10.0 - pip install h5py==3.10.0
 
+### Pretranied Models
+
+Models are available at https://doi.org/10.5281/zenodo.10651455 
+
+
 ### Model Training
 
 To train a model, the **./Evaluations/train.py** script must be used.
