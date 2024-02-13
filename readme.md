@@ -1,5 +1,7 @@
 # Stereo2vec
 
+Stereo2vec is a word embedding method that addresses molecular discrimination by leveraging stereochemical data from molecules or by treating Isomeric SMILES notation as textual input in Natural Language Processing
+
 ## Requirements
 
 This project depends on the following Python (Python 3) libraries:
@@ -19,8 +21,7 @@ This project depends on the following Python (Python 3) libraries:
 
 ### Pretranied Models
 
-Models are available at https://doi.org/10.5281/zenodo.10651455 
-
+Models are available at https://doi.org/10.5281/zenodo.10651454 
 
 ### Model Training
 
@@ -71,7 +72,10 @@ It takes 7 arguments, 1 of them are required:
 -    **batch_size**: the number of molecules in each batch for Mordred Descriptors (optional, by default it's 5000, it will just work for Mordred Descriptors)
 
 #### Example usage:
-
+    
+    # If you want to use your own file, called filename, you can the following command:
+    python evaluate.py --method_name "MACCS" --file filename; 
+    # To test with the prebuilt file, you can use the following examples:
     python evaluate.py --method_name "MACCS";
     python evaluate.py --method_name "ECFPChirality" --dimensions 1024;
     python evaluate.py --method_name "ECFPChirality" --dimensions 1024 --radius 2;
